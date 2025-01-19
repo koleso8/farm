@@ -1,0 +1,18 @@
+@import './variables.css';
+@import './reset.css';
+@import './common.css';
+@import './logo.css';
+@import './bg.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* font-family: 'Cuprum', sans-serif; */
+}
+
+.active {
+  color: black;
+  background: linear-gradient(90deg, #69a3f4 0%, #521dce 100%);
+}
