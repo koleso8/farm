@@ -17,6 +17,7 @@ const About = () => {
             className=" md:text-[64px] text-8xl text-center md:text-start text-black md:mb-10 mb-7 secondTitle "
             data-aos="fade-up"
             data-aos-duration="900"
+            data-aos-anchor-placement="bottom-bottom"
           >
             $TGAME
           </p>
@@ -56,14 +57,7 @@ const About = () => {
             NOW
           </h2>
           <div>
-            <img
-              src="mocup.png"
-              alt="screenshot"
-              className="w-[480px] mb-6"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              data-aos-anchor-placement="top-bottom"
-            />
+            <img src="mocup.png" alt="screenshot" className="w-[480px] mb-6" />
           </div>
           <img
             src="GIF2.png"
@@ -71,21 +65,20 @@ const About = () => {
             className="w-72 mb-6 "
             data-aos="fade-up-left"
             data-aos-duration="2000"
+            data-aos-anchor-placement="bottom-bottom"
           />
           <div>
             <img
               src="mocup.png"
               alt="screenshot"
               className="w-[480px] pt-0 mb-6 md:mb-20"
-              data-aos="zoom-in"
-              data-aos-duration="2000"
-              data-aos-anchor-placement="top-bottom"
             />
           </div>
           <p
             className="w-72 md:w-[388px] text-center text-4xl"
             data-aos="zoom-out"
             data-aos-duration="2000"
+            data-aos-anchor-placement="bottom-bottom"
           >
             PARTICIPATE IN DAILY CHALLENGES WITH OTHER PLAYERS AND{' '}
             <span className="text-[#E44241] ">GET ADDITIONAL PRIZES.</span>
@@ -96,6 +89,7 @@ const About = () => {
             className="w-80 "
             data-aos="zoom-in"
             data-aos-duration="3000"
+            data-aos-anchor-placement="bottom-bottom"
           />
         </div>
       </Container>

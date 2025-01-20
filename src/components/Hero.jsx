@@ -12,7 +12,7 @@ const Hero = () => {
     AOS.refresh();
   }, []);
   return (
-    <Container className={'justify-center mb-9 md:mb-36'}>
+    <Container className={'justify-center mb-9 md:mb-44'}>
       <div className="flex flex-col items-center w-full relative">
         <img
           src="GIF5.png"
@@ -23,7 +23,7 @@ const Hero = () => {
           className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-10"
           data-aos="fade-right"
           data-aos-duration="3000"
-          data-aos-anchor-placement="top-bottom"
+          data-aos-anchor-placement="bottom-bottom"
         >
           <h2 className="subTitle  text-8xl absolute">$TGAME</h2>
           <h1 className="title  text-8xl text-black absolute">$TGAME</h1>
@@ -33,7 +33,7 @@ const Hero = () => {
           className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-10 md:mb-0"
           data-aos="fade-left"
           data-aos-duration="3000"
-          data-aos-anchor-placement="top-bottom"
+          data-aos-anchor-placement="bottom-bottom"
           to={GAME}
           target="_blank"
         >

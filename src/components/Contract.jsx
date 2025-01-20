@@ -28,7 +28,6 @@ const Contract = () => {
           className=" text-white text-center cursor-pointer tracking-wide md:text-3xl text-[12px] mb-2"
           data-aos="fade-right"
           data-aos-duration="900"
-          data-aos-anchor-placement="top-bottom"
         >
           CONTRACT: {CONTRACT}
         </h2>
@@ -37,7 +36,7 @@ const Contract = () => {
           className="relative "
           data-aos="fade-left"
           data-aos-duration="900"
-          data-aos-anchor-placement="top-bottom"
+          data-aos-anchor-placement="bottom-bottom"
         >
           {copied ? <FaCopy size={30} /> : <FaRegCopy className="" size={30} />}
           <span

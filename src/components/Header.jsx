@@ -22,7 +22,6 @@ const Header = () => {
               className="text-2xl static z-40 "
               data-aos="zoom-in"
               data-aos-duration="3000"
-              data-aos-anchor-placement="top-bottom"
             >
               start
             </Link>

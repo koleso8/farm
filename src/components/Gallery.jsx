@@ -20,6 +20,7 @@ const Gallery = () => {
           alt="bb"
           data-aos="zoom-in"
           data-aos-duration="3000"
+          data-aos-anchor-placement="bottom-bottom"
         />
         <img
           src="g2.png"
@@ -29,6 +30,7 @@ const Gallery = () => {
           alt="ac"
           data-aos="zoom-in"
           data-aos-duration="2000"
+          data-aos-anchor-placement="bottom-bottom"
         />
         <img
           src="g3.png"
@@ -38,6 +40,7 @@ const Gallery = () => {
           alt="arg"
           data-aos="zoom-in"
           data-aos-duration="3000"
+          data-aos-anchor-placement="bottom-bottom"
         />
         <img
           src="g4.png"
@@ -47,6 +50,7 @@ const Gallery = () => {
           alt="fgr"
           data-aos="zoom-in"
           data-aos-duration="2000"
+          data-aos-anchor-placement="bottom-bottom"
         />
       </Container>
     </section>

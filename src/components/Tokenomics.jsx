@@ -43,6 +43,7 @@ const Tokenomics = () => {
             className="bg-[#e44241] rounded-md px-3 py-8 w-full md:w-[490px]"
             data-aos="fade-right"
             data-aos-duration="900"
+            data-aos-anchor-placement="bottom-bottom"
           >
             SYPPLY 1,000,000,000
           </li>
@@ -50,6 +51,7 @@ const Tokenomics = () => {
             className="bg-[#e44241] rounded-md px-3 py-8 w-full md:w-[490px]"
             data-aos="fade-right"
             data-aos-duration="500"
+            data-aos-anchor-placement="bottom-bottom"
           >
             SQL BLOCKCHAING{' '}
           </li>
@@ -57,6 +59,7 @@ const Tokenomics = () => {
             className="bg-[#e44241] rounded-md px-3 py-8 w-full md:w-[490px]"
             data-aos="fade-left"
             data-aos-duration="900"
+            data-aos-anchor-placement="bottom-bottom"
           >
             TICKER: $FARTRUMP
           </li>
@@ -64,6 +67,7 @@ const Tokenomics = () => {
             className="bg-[#e44241] rounded-md px-3 py-8 w-full md:w-[490px]"
             data-aos="fade-left"
             data-aos-duration="500"
+            data-aos-anchor-placement="bottom-bottom"
           >
             LP TOKENS BURNED
           </li>
