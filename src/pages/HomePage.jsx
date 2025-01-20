@@ -2,23 +2,25 @@ import { useEffect } from 'react';
 import { scrollToTop } from '../helpers/scrollToTop';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import Structure_1 from '../components/Structure_1';
-import Important_2 from '../components/Important_2';
-import Tokenomics_3 from '../components/Tokenomics_3';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Tokenomics from '../components/Tokenomics';
+import Contract from '../components/Contract';
+import Faqs from '../components/FAQS';
+import Gallery from '../components/Gallery';
 
 const HomePage = () => {
   useEffect(() => scrollToTop());
 
   return (
-    <div className="lg:pt-[40px] lg:pb-[120px]">
+    <div className="lg:pt-[40px] ">
       <Header />
       <Hero />
       <About />
-      <Structure_1 />
-      <Important_2 />
-      <Tokenomics_3 />
+      <Tokenomics />
+      <Contract />
+      <Faqs />
+      <Gallery />
       <Footer />
     </div>
   );

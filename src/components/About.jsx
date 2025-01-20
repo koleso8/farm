@@ -10,36 +10,93 @@ const About = () => {
     AOS.refresh();
   }, []);
   return (
-    <section className="bg-bg-vector bg-no-repeat bg-top w-screen flex flex-col m-auto bg-contain  ">
+    <section className="">
       <Container>
-        <div className="md:pt-48 pt-4 flex flex-col items-center mb-14 ">
+        <div className="flex flex-col flex-wrap gap-x-3  items-center md:max-h-[1965px] mb-6 md:mb-44 ">
           <p
-            className=" md:text-9xl text-8xl font-extrabold text-center md:mb-20 mb-7 text-[#d9d9d9] drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]"
+            className=" md:text-[64px] text-8xl text-center md:text-start text-black md:mb-10 mb-7 secondTitle "
             data-aos="fade-up"
             data-aos-duration="900"
           >
-            ABOUT
+            $TGAME
           </p>
           <p
-            className="text-xl font-bold text-center text-white mb-11 drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]"
+            className="text-[32px] font-bold text-center md:text-start text-[#e44241] mb-11"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            AI AGENTS ACADEMY
+            PLAY AND EARN SOL FOF EVERY GAME
           </p>
           <p
-            className="md:w-[575px] font-normal md:text-xl text-base text-center text-white drop-shadow-[0_0px_5px_rgba(0,200,200,0.75)]"
-            data-aos="fade-up"
-            data-aos-duration="1500"
+            className="text-[32px] text-center w-72 md:w-[434px] leading-[30px] mb-16"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
           >
-            Сentralized and decentralized platform designedto train, develop and
-            employ AI agents
-            <br />
-            <br />
-            The Academy focuses on improving agents` skillsin various fields and
-            provides an opportunity foremployers to find skilled professionals
-            ready forreal-world challenges
+            TRY TO MAKE YOUR RECORD AS BIG AS POSSIBLE TO GET A LOT OF SOL.
           </p>
+          <img
+            src="GIF1.png"
+            alt="trump"
+            className="w-80 mb-6"
+            data-aos="fade-up-right"
+            data-aos-duration="2000"
+          />
+          <h3
+            className="impTitle text-[64px]  text-[#E44241] tracking-tight leading-[50px] text-center "
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            BEAT THE RECORD
+          </h3>
+          <h2
+            className="secondTitle text-[80px] text-black"
+            data-aos="zoom-out"
+            data-aos-duration="2000"
+          >
+            NOW
+          </h2>
+          <div>
+            <img
+              src="mocup.png"
+              alt="screenshot"
+              className="w-[480px] mb-6"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </div>
+          <img
+            src="GIF2.png"
+            alt="trump"
+            className="w-72 mb-6 "
+            data-aos="fade-up-left"
+            data-aos-duration="2000"
+          />
+          <div>
+            <img
+              src="mocup.png"
+              alt="screenshot"
+              className="w-[480px] pt-0 mb-6 md:mb-20"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </div>
+          <p
+            className="w-72 md:w-[388px] text-center text-4xl"
+            data-aos="zoom-out"
+            data-aos-duration="2000"
+          >
+            PARTICIPATE IN DAILY CHALLENGES WITH OTHER PLAYERS AND{' '}
+            <span className="text-[#E44241] ">GET ADDITIONAL PRIZES.</span>
+          </p>
+          <img
+            src="GIF3.png"
+            alt="trump"
+            className="w-80 "
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+          />
         </div>
       </Container>
     </section>

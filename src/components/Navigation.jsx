@@ -1,59 +1,67 @@
-import { FaTelegramPlane } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import clsx from 'clsx';
+import { DEXSCREENER, RAYDIUM, TG, TWITTER } from '../constants';
 
-const Navigation = () => {
+const Navigation = ({ className, footer = false }) => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
   return (
-    <nav
-      className="flex gap-2"
-      data-aos="zoom-in"
-      data-aos-duration="4000"
-      data-aos-anchor-placement="top-bottom"
-    >
+    <nav className={clsx(className, 'flex flex-col  gap-2 tracking-widest')}>
       <a
-        href="https://x.com/agntacademy"
+        href={TWITTER}
         target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+        className={clsx(
+          footer ? 'h-12' : 'h-10',
+          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
+        )}
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="top-bottom"
       >
-        <FaXTwitter color="#fff" size={30} />
+        TWITTER
       </a>
       <a
-        href="https://t.me/agntacademy"
+        href={RAYDIUM}
         target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full pr-1 items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+        className={clsx(
+          footer ? 'h-12' : 'h-10',
+          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
+        )}
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-anchor-placement="top-bottom"
       >
-        <FaTelegramPlane color="#fff" size={30} />
+        RAYDIUM
       </a>
       <a
-        href="https://raydium.io/swap/?inputMint=sol&outputMint=AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf"
+        href={TG}
         target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+        className={clsx(
+          footer ? 'h-12' : 'h-10',
+          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
+        )}
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-anchor-placement="top-bottom"
       >
-        <img src="/raydium.png" width={25}></img>
+        TELEGRAM
       </a>
       <a
-        href="https://dexscreener.com/solana/AcaDeMYwmB6VvZZK7BrYnQawMknnHKbvihPXKoYPgmaf"
+        href={DEXSCREENER}
         target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
+        className={clsx(
+          footer ? 'h-12' : 'h-10',
+          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
+        )}
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-anchor-placement="top-bottom"
       >
-        <img
-          src="/dexscreener.png"
-          width={60}
-          style={{ maxWidth: '130%' }}
-        ></img>
-      </a>
-      <a
-        href="https://t.me/AgntAcademyBot"
-        target="_blank"
-        className="flex w-12 h-12 border-2 rounded-full items-center justify-center hover:scale-105 transition-all hover:border-[#6ebefb]"
-      >
-        <img src="/study.png" width={60}></img>
+        DEXSCREENER
       </a>
     </nav>
   );

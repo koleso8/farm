@@ -1,8 +1,12 @@
-const Container = ({ children, ...props }) => {
+import clsx from 'clsx';
+
+const Container = ({ children, className }) => {
   return (
     <div
-      className="flex items-center justify-center w-full max-w-[340px] md:max-w-[1080px]  mx-auto"
-      {...props}
+      className={clsx(
+        'flex items-center w-full max-w-[340px] md:max-w-[1080px]  mx-auto',
+        className
+      )}
     >
       {children}
     </div>

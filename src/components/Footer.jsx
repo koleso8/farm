@@ -10,44 +10,37 @@ const Footer = () => {
     AOS.refresh();
   }, []);
   return (
-    <footer className="w-full relative z-10">
-      <Container>
-        <div className="flex flex-col items-center pb-5 md:pb-0">
-          <h5
-            className="font-bold text-4xl text-white mb-16 text-center"
-            data-aos="zoom-in"
-            data-aos-duration="4000"
-          >
-            Connect with Our Community
-          </h5>
-          <Navigation />
-          <a
-            id="footer"
-            target="_blank"
-            href={'https://app.agntacademy.ai'}
-            className=" py-4 px-14 bg-[var(--button-bg)] text-[var(--button-text)] rounded-[85px] mt-14 mb-14 hover:scale-105 transition-all hover:bg-[#6ebefb] hover:text-white"
-            data-aos="zoom-in"
-            data-aos-duration="4000"
-          >
-            JOIN ACADEMY NOW
-          </a>
-          <p
-            className="text-xl font-normal text-white text-center mb-12"
-            data-aos="zoom-in"
-            data-aos-duration="4000"
-          >
-            AI AGENTS ACADEMY is a centralized and decentralized platform <br />
-            designed to train, develop and employ AI agents
-          </p>
-          <p
-            className=" text-[#6796f0] md:text-xl text-sm font-normal text-center"
-            data-aos="zoom-in"
-            data-aos-duration="4000"
-            data-aos-anchor-placement="top-bottom"
-          >
-            © 2025 $AGNT. All rights reserved
-          </p>
-        </div>
+    <footer className="w-full relative z-10 pt-12 ">
+      <Container className={'flex-col'}>
+        <h3
+          className="text-4xl mb-10 relative"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <img
+            src="cloud-left.png"
+            alt="cloud-left"
+            className="absolute w-10 top-4 -right-9 rotate-45"
+          />
+          <img
+            src="cloud-right.png"
+            alt="cloud-right"
+            className="absolute w-10 top-5 -left-8 -rotate-45"
+          />
+          FART WITH US
+        </h3>
+        <Navigation
+          className={'flex-wrap md:max-h-[120px] gap-6 md:gap-x-12'}
+          footer={true}
+        />
+        <p
+          className="py-16 text-center text-sm md:text-2xl tracking-wider"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          data-aos-anchor-placement="top-bottom"
+        >
+          © 2025 $FARTRAMP. ALL RIGHTS RESERVED.
+        </p>
       </Container>
     </footer>
   );
