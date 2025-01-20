@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Tokenomics from '../components/Tokenomics';
 import Contract from '../components/Contract';
-import Faqs from '../components/FAQS';
+import Faqs from '../components/Faqs';
 import Gallery from '../components/Gallery';
 
 const HomePage = () => {
