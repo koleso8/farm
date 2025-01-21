@@ -12,7 +12,7 @@ const Header = () => {
     AOS.refresh();
   }, []);
   return (
-    <header className="mb-[300px] md:mb-[360px]">
+    <header className="mb-[280px] md:mb-[360px]">
       <section className="pt-4 md:pt-0">
         <Container className={'justify-start'}>
           <div className="flex justify-start">

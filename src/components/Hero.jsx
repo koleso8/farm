@@ -17,35 +17,24 @@ const Hero = () => {
         <img
           src="GIF5.png"
           alt="trumH"
-          className="absolute w-[540px] -top-72 md:-top-[420px]"
+          className="absolute w-[540px] -top-[236px] md:-top-[402px]"
         />
         <div>
           <div
-            className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-1"
+            className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-1  text-white"
             data-aos="fade-right"
             data-aos-duration="3000"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <h2 className="subTitle text-6xl  md:text-8xl absolute">
-              FARTRUMP{' '}
-            </h2>
-            <h1 className="title text-6xl  md:text-8xl text-black absolute">
+            <h1 className="title text-6xl  md:text-8xl absolute">FARTRUMP</h1>
+            <h2 className="title text-6xl  md:text-8xl  absolute top-[28px] left-[8px]  md:top-[9px] md:left-[34px] opacity-50">
               FARTRUMP
-            </h1>
-          </div>
-          <div
-            className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-2"
-            data-aos="fade-right"
-            data-aos-duration="3000"
-            data-aos-anchor-placement="bottom-bottom"
-          >
-            <h2 className="subTitle  text-5xl  md:text-8xl absolute">
-              EARN GAME{' '}
             </h2>
-            <h2 className="title  text-5xl  md:text-8xl text-black absolute">
-              EARN GAME
+            <h2 className="title text-6xl  md:text-8xl  absolute top-[30px] left-[10px] md:top-[11px] md:left-[36px] opacity-25">
+              FARTRUMP
             </h2>
           </div>
+
           <Link
             className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-10 md:mb-0"
             data-aos="fade-left"
