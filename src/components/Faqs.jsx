@@ -37,7 +37,7 @@ const Faqs = () => {
           <img
             src="cloud-left.png"
             alt="cloud-left"
-            className="hidden md:block absolute w-72 -top-52 -left-[12vw] "
+            className="hidden md:block absolute w-72 -top-52 -left-[12vw] animate-rightAnimation "
             data-aos="fade-right"
             data-aos-duration="3000"
             data-aos-anchor-placement="bottom-bottom"
@@ -45,7 +45,7 @@ const Faqs = () => {
           <img
             src="cloud-left.png"
             alt="cloud-left"
-            className="hidden md:block absolute w-72 -bottom-60  -left-[12vw] "
+            className="hidden md:block absolute w-72 -bottom-60  -left-[12vw] animate-rightAnimation  "
             data-aos="fade-right"
             data-aos-duration="3000"
             data-aos-anchor-placement="bottom-bottom"
@@ -53,7 +53,7 @@ const Faqs = () => {
           <img
             src="cloud-right.png"
             alt="cloud-right"
-            className="hidden md:block absolute w-72 top-0 -right-[12vw]"
+            className="hidden md:block absolute w-72 top-0 -right-[12vw] animate-leftAnimation "
             data-aos="fade-right"
             data-aos-duration="3000"
             data-aos-anchor-placement="bottom-bottom"
@@ -63,7 +63,7 @@ const Faqs = () => {
             alt="cloud-right"
             data-aos="fade-right"
             data-aos-duration="3000"
-            className="hidden md:block absolute w-72 -bottom-72 -right-[12vw]"
+            className="hidden md:block absolute w-72 -bottom-72 -right-[12vw] animate-leftAnimation"
           />
           <li className="md:w-[550px] static z-20">
             <h3
