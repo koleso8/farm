@@ -15,9 +15,19 @@ const Hero = () => {
     <Container className={'justify-center mb-9 md:mb-44'}>
       <div className="flex flex-col items-center  w-full relative">
         <img
-          src="GIF5.png"
+          src="TrumpMain.png"
           alt="trumH"
-          className="absolute w-[540px] -top-[236px] md:-top-[402px]"
+          className="absolute w-[540px] -top-[286px] md:-top-[456px] z-10"
+        />
+        <img
+          src="FartTrumpMainLeft.png"
+          alt="FartTrumpMainLeft  "
+          className="absolute md:-top-[300px] -top-52 -left-24 md:left-40 animate-leftAnimation"
+        />
+        <img
+          src="FartTrumpMainRight.png"
+          alt="FartTrumpMainRight  "
+          className="absolute md:-top-[300px] -top-52 -right-24  md:right-40 animate-rightAnimation"
         />
         <div>
           <div

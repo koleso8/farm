@@ -35,13 +35,22 @@ const About = () => {
           >
             TRY TO MAKE YOUR RECORD AS BIG AS POSSIBLE TO GET A LOT OF SOL.
           </p>
-          <img
-            src="GIF1.png"
-            alt="trump"
-            className="w-80 mb-6"
+          <div
+            className=" mb-6 relative"
             data-aos="fade-up-right"
             data-aos-duration="2000"
-          />
+          >
+            <img
+              src="TrumpLeft.png"
+              alt="trump"
+              className="w-80 scale-[1.8] relative z-10"
+            />
+            <img
+              src="FartLeft.png"
+              className="absolute top-24 -left-[90px] animate-leftAnimation"
+              alt=""
+            />
+          </div>
           <h3
             className="impTitle text-[64px]  text-[#E44241] tracking-tight leading-[50px] text-center "
             data-aos="zoom-in"
@@ -59,14 +68,23 @@ const About = () => {
           <div>
             <img src="mocup.png" alt="screenshot" className="w-[480px] mb-6" />
           </div>
-          <img
-            src="GIF2.png"
-            alt="trump"
-            className="w-72 mb-6 "
+          <div
+            className=" mb-6 relative"
             data-aos="fade-up-left"
             data-aos-duration="2000"
             data-aos-anchor-placement="bottom-bottom"
-          />
+          >
+            <img
+              src="TrumpRight.png"
+              alt="trump"
+              className="w-80 scale-[1.8] relative z-10"
+            />
+            <img
+              src="FartRight.png"
+              className="absolute top-24 -right-[80px] animate-rightAnimation"
+              alt=""
+            />
+          </div>
           <div>
             <img
               src="mocup.png"

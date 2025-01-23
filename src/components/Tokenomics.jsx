@@ -11,20 +11,38 @@ const Tokenomics = () => {
   }, []);
   return (
     <section className=" md:mb-[86px] mb-6 relative">
-      <img
-        src="GIF1.png"
-        alt=""
-        className="hidden md:block absolute w-72 -top-[70px] left-28"
+      <div
+        className="hidden md:block absolute w-72 -top-[70px] left-44 "
         data-aos="fade-right"
-        data-aos-duration="900"
-      />
-      <img
-        src="GIF2.png"
-        alt=""
-        className="hidden md:block absolute w-72 -top-[70px] right-28"
+        data-aos-duration="2000"
+      >
+        <img
+          src="TrumpLeft.png"
+          alt="trump"
+          className="w-80 scale-[2] relative z-10"
+        />
+        <img
+          src="FartLeft.png"
+          className="absolute top-24 -left-[90px] animate-leftAnimation"
+          alt=""
+        />
+      </div>
+      <div
+        className="hidden md:block absolute w-72 -top-[80px] right-36 "
         data-aos="fade-left"
-        data-aos-duration="900"
-      />
+        data-aos-duration="2000"
+      >
+        <img
+          src="TrumpRight.png"
+          alt="trump"
+          className="w-80 scale-[2] relative z-10"
+        />
+        <img
+          src="FartRight.png"
+          className="absolute top-24 -right-[90px] animate-rightAnimation"
+          alt=""
+        />
+      </div>
       <Container className={'justify-center items-center flex-col  '}>
         <div
           className="relative w-full md:w-96 h-24 mb-6 md:mb-32 mx-auto"

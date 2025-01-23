@@ -7,6 +7,20 @@ export default {
         'bg-pattern': "url('/background.png')",
         'bg-vector': "url('/vector.png')",
       },
+      keyframes: {
+        rightAnimation: {
+          '0%': { transform: 'translateX(-38px)', opacity: '0' },
+          '100%': { transform: 'translateX(0) scale(1.1)', opacity: '1' },
+        },
+        leftAnimation: {
+          '0%': { transform: 'translateX(30px) ', opacity: '0' },
+          '100%': { transform: 'translateX(0) scale(1.1)', opacity: '1' },
+        },
+      },
+      animation: {
+        rightAnimation: 'rightAnimation 3s infinite',
+        leftAnimation: 'leftAnimation 3s infinite',
+      },
     },
   },
   plugins: [],
