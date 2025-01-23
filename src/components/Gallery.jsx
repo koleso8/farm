@@ -1,7 +1,9 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css';
 import Container from './Container';
 
 const Gallery = () => {
@@ -11,48 +13,48 @@ const Gallery = () => {
   }, []);
   return (
     <section className="bg-[#e44241] py-10">
-      <Container className={'justify-between flex-col gap-6 md:flex-row'}>
-        <img
-          src="g1.png"
-          width={240}
-          height={235}
-          className="h-[235px] w-[240px]"
-          alt="bb"
-          data-aos="zoom-in"
-          data-aos-duration="3000"
-          data-aos-anchor-placement="bottom-bottom"
-        />
-        <img
-          src="g2.png"
-          width={240}
-          height={235}
-          className="h-[235px] w-[240px]"
-          alt="ac"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-anchor-placement="bottom-bottom"
-        />
-        <img
-          src="g3.png"
-          width={240}
-          height={235}
-          className="h-[235px] w-[240px]"
-          alt="arg"
-          data-aos="zoom-in"
-          data-aos-duration="3000"
-          data-aos-anchor-placement="bottom-bottom"
-        />
-        <img
-          src="g4.png"
-          width={240}
-          height={235}
-          className="h-[235px] w-[240px]"
-          alt="fgr"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
-          data-aos-anchor-placement="bottom-bottom"
-        />
-      </Container>
+      <Swiper
+        modules={[Autoplay]}
+        loop={true}
+        speed={1200}
+        slidesPerView={1}
+        spaceBetween={20}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+          waitForTransition: true,
+        }}
+        breakpoints={{
+          300: {
+            slidesPerView: 1.5,
+            spaceBetween: 40,
+          },
+          768: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
+      >
+        <SwiperSlide>
+          <img src="g1.png" width={240} height={235} alt="bb" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="g2.png" width={240} height={235} alt="as" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="g3.png" width={240} height={235} alt="ds" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="g4.png" width={240} height={235} alt="asd" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="1.png" width={240} height={235} alt="aaews" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="2.png" width={240} height={235} alt="ds" />
+        </SwiperSlide>
+      </Swiper>
+      <div className=" flex gap-20 pl-[0] "></div>
     </section>
   );
 };

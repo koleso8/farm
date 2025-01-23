@@ -61,3 +61,12 @@
   background: #6ebefb;
   color: #fff;
 }
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+.swiper-slide {
+  img {
+    height: 235px;
+  }
+}
