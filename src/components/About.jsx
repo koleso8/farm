@@ -65,8 +65,23 @@ const About = () => {
           >
             NOW
           </h2>
-          <div>
-            <img src="mocup.png" alt="screenshot" className="w-[480px] mb-6" />
+          <div className="relative">
+            <img
+              src="mocup.png"
+              alt="screenshot"
+              className="w-[480px] md:h-[782px] pt-0 mb-6 md:mb-20 relative "
+            />
+            <video
+              width="88%"
+              height="100%"
+              controls
+              className="absolute top-[78px] left-[20px]   md:top-[90px]  md:left-[26px] rounded-b-[40px]"
+              autoPlay
+              loop
+              muted
+            >
+              <source src="/public/video1.MP4" type="video/mp4" />
+            </video>
           </div>
           <div
             className=" mb-6 relative"
@@ -85,12 +100,23 @@ const About = () => {
               alt=""
             />
           </div>
-          <div>
+          <div className="relative ">
             <img
               src="mocup.png"
               alt="screenshot"
-              className="w-[480px] pt-0 mb-6 md:mb-20"
+              className="w-[480px]  md:h-[782px] pt-0 mb-6 md:mb-20 relative "
             />
+            <video
+              width="88%"
+              height="100%"
+              controls
+              className="absolute  top-[78px] left-[20px]   md:top-[90px]  md:left-[26px] rounded-b-[40px]"
+              autoPlay
+              loop
+              muted
+            >
+              <source src="/public/video1.MP4" type="video/mp4" />
+            </video>
           </div>
           <p
             className="w-72 md:w-[388px] text-center text-4xl"
