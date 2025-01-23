@@ -80,7 +80,7 @@ const About = () => {
               loop
               muted
             >
-              <source src="/public/video1.MP4" type="video/mp4" />
+              <source src="video1.MP4" type="video/mp4" />
             </video>
           </div>
           <div
@@ -115,7 +115,7 @@ const About = () => {
               loop
               muted
             >
-              <source src="/public/video1.MP4" type="video/mp4" />
+              <source src="video2.MP4" type="video/mp4" />
             </video>
           </div>
           <p
