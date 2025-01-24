@@ -13,7 +13,7 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div className="bg-[url(ph1.jpg)]   w-screen h-screen bg-no-repeat bg-cover absolute top-0"></div>
+      <div className="bg-bg-pattern brightness-[20%]  w-screen h-screen bg-no-repeat bg-cover absolute top-0"></div>
       <Container className={'justify-center mb-9 md:mb-44 '}>
         <div className="flex flex-col items-center  w-full relative ">
           <img
