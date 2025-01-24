@@ -25,7 +25,7 @@ const Hero = () => {
           alt=""
         />
       </div>
-      <div className="rotate-45">
+      <div className="rotate-45 translate-y-96">
         <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
           <img
             src="TrumpLeft.png"
@@ -39,7 +39,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="rotate-45 translate-x-96">
+      <div className="rotate-[70deg] -translate-y-64">
         <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
           <img
             src="TrumpLeft.png"
@@ -53,7 +53,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="rotate-45 translate-y-60">
+      <div className="rotate-[-40deg] translate-x-60">
         <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
           <img
             src="TrumpLeft.png"
@@ -67,7 +67,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="-rotate-45 scale-x-[-1]">
+      <div className="-rotate-[60deg] scale-x-[-1] translate-y-96">
         <div className="hidden md:block absolute w-16 left-0   animate-runtRUMP ">
           <img
             src="TrumpLeft.png"
