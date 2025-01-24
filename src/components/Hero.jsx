@@ -13,90 +13,9 @@ const Hero = () => {
   }, []);
   return (
     <>
-      <div className="hidden md:block absolute w-16 left-0  animate-runtRUMP ">
-        <img
-          src="TrumpLeft.png"
-          alt="trump"
-          className="w-20 scale-[2] relative z-10"
-        />
-        <img
-          src="FartLeft.png"
-          className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-          alt=""
-        />
-      </div>
-      <div className="rotate-45 translate-y-96">
-        <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
-          <img
-            src="TrumpLeft.png"
-            alt="trump"
-            className="w-20 scale-[2] relative z-10"
-          />
-          <img
-            src="FartLeft.png"
-            className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="rotate-[70deg] -translate-y-64">
-        <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
-          <img
-            src="TrumpLeft.png"
-            alt="trump"
-            className="w-20 scale-[2] relative z-10"
-          />
-          <img
-            src="FartLeft.png"
-            className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="rotate-[-40deg] translate-x-60">
-        <div className="hidden md:block absolute w-16 -top-6  animate-runtRUMP ">
-          <img
-            src="TrumpLeft.png"
-            alt="trump"
-            className="w-20 scale-[2] relative z-10"
-          />
-          <img
-            src="FartLeft.png"
-            className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="-rotate-[60deg] scale-x-[-1] translate-y-96">
-        <div className="hidden md:block absolute w-16 left-0   animate-runtRUMP ">
-          <img
-            src="TrumpLeft.png"
-            alt="trump"
-            className="w-20 scale-[2] relative z-10"
-          />
-          <img
-            src="FartLeft.png"
-            className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="-rotate-45 scale-x-[-1] translate-x-96">
-        <div className="hidden md:block absolute w-16    animate-runtRUMP ">
-          <img
-            src="TrumpLeft.png"
-            alt="trump"
-            className="w-20 scale-[2] relative z-10"
-          />
-          <img
-            src="FartLeft.png"
-            className=" w-24 absolute top-5 -left-12 animate-leftAnimation"
-            alt=""
-          />
-        </div>
-      </div>
-      <Container className={'justify-center mb-9 md:mb-44'}>
-        <div className="flex flex-col items-center  w-full relative">
+      <div className="bg-[url(ph1.jpg)]   w-screen h-screen bg-no-repeat bg-cover absolute top-0"></div>
+      <Container className={'justify-center mb-9 md:mb-44 '}>
+        <div className="flex flex-col items-center  w-full relative ">
           <img
             src="TrumpMain.png"
             alt="trumH"
@@ -127,7 +46,6 @@ const Hero = () => {
                 FARTRUMP
               </h2>
             </div>
-
             <Link
               className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-10 md:mb-0"
               data-aos="fade-left"
@@ -144,7 +62,6 @@ const Hero = () => {
               </p>
             </Link>
           </div>
-
           <Navigation
             className={'md:ml-auto md:absolute md:right-0 bottom-0'}
           />
