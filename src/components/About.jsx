@@ -33,7 +33,7 @@ const About = () => {
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
-            TRY TO MAKE YOUR RECORD AS BIG AS POSSIBLE TO GET A LOT OF SOL.
+            Play and earn through records of 20 30 40 and above.
           </p>
           <div
             className=" mb-6 relative"
