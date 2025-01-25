@@ -25,19 +25,6 @@ const Navigation = ({ className, footer = false }) => {
         TWITTER
       </a>
       <a
-        href={RAYDIUM}
-        target="_blank"
-        className={clsx(
-          footer ? 'h-12' : 'h-10',
-          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
-        )}
-        data-aos="zoom-in"
-        data-aos-duration="2000"
-        data-aos-anchor-placement="top-bottom"
-      >
-        RAYDIUM
-      </a>
-      <a
         href={TG}
         target="_blank"
         className={clsx(
@@ -50,6 +37,7 @@ const Navigation = ({ className, footer = false }) => {
       >
         TELEGRAM
       </a>
+
       <a
         href={DEXSCREENER}
         target="_blank"
@@ -62,6 +50,19 @@ const Navigation = ({ className, footer = false }) => {
         data-aos-anchor-placement="top-bottom"
       >
         DEXSCREENER
+      </a>
+      <a
+        href={RAYDIUM}
+        target="_blank"
+        className={clsx(
+          footer ? 'h-12' : 'h-10',
+          'bg-black flex w-64  border-[5px] items-center justify-center hover:scale-105 transition-all hover:border-[#e44241] hover:text-[#e44241] '
+        )}
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-anchor-placement="top-bottom"
+      >
+        RAYDIUM
       </a>
     </nav>
   );

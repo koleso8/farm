@@ -11,7 +11,6 @@ const About = () => {
   }, []);
   return (
     <section>
-      <div className=" bg-bg-pattern2 brightness-[20%]  w-screen h-screen bg-no-repeat bg-cover absolute"></div>
       <Container>
         <div className="flex flex-col flex-wrap gap-x-3  items-center md:max-h-[1965px] mb-6 md:mb-44 ">
           <p
@@ -88,7 +87,7 @@ const About = () => {
             className=" mb-6 relative"
             data-aos="fade-up-left"
             data-aos-duration="2000"
-            data-aos-anchor-placement="bottom-bottom"
+            data-aos-anchor-placement="top-bottom"
           >
             <img
               src="TrumpRight.png"

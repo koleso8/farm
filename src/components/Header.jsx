@@ -11,23 +11,7 @@ const Header = () => {
     AOS.init();
     AOS.refresh();
   }, []);
-  return (
-    <header className="mb-[0px] md:mb-[0px]">
-      <section className="">
-        <Container className={'justify-start'}>
-          <div className="flex justify-start">
-            <Link
-              to={GAME}
-              target="_blank"
-              className="text-2xl static z-40 pt-5 "
-              data-aos="zoom-in"
-              data-aos-duration="3000"
-            ></Link>
-          </div>
-        </Container>
-      </section>
-    </header>
-  );
+  return <header className="mb-[0px] md:mb-[0px]"></header>;
 };
 
 export default Header;

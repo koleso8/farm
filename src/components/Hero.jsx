@@ -18,16 +18,18 @@ const Hero = () => {
         <div className="flex flex-col items-center  w-full relative ">
           <div>
             <div
-              className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-[276px] md:mb-[460px]  text-white"
+              className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-[276px] md:mb-[500px]  text-white"
               data-aos="fade-right"
               data-aos-duration="3000"
               data-aos-anchor-placement="bottom-bottom"
             >
-              <h1 className="title text-6xl  md:text-8xl absolute">FARTRUMP</h1>
-              <h2 className="title text-6xl  md:text-8xl  absolute top-[28px] left-[8px]  md:top-[9px] md:left-[34px] opacity-50">
+              <h1 className="title text-6xl  md:text-8xl absolute tracking-wide">
+                FARTRUMP
+              </h1>
+              <h2 className="title text-6xl  md:text-8xl  absolute top-[28px] left-[2px]  md:top-[9px] md:left-[24px] opacity-50 tracking-wide">
                 FARTRUMP
               </h2>
-              <h2 className="title text-6xl  md:text-8xl  absolute top-[30px] left-[10px] md:top-[11px] md:left-[36px] opacity-25">
+              <h2 className="title text-6xl  md:text-8xl  absolute top-[30px] left-[4px] md:top-[11px] md:left-[26px] opacity-25 tracking-wide">
                 FARTRUMP
               </h2>
               <h3 className="text-2xl  md:text-6xl text-red-600  absolute top-20 left-[80px] md:top-24 md:left-[96px]">
@@ -37,17 +39,17 @@ const Hero = () => {
             <img
               src="TrumpMain.png"
               alt="trumH"
-              className="absolute w-[540px] top-[120px] md:top-[120px] left-0 md:left-[276px] z-10"
+              className="absolute w-[540px] top-[120px] md:top-[108px] left-0 md:left-[246px] z-10 md:w-[600px]"
             />
             <img
               src="FartTrumpMainLeft.png"
               alt="FartTrumpMainLeft  "
-              className="absolute md:top-[280px] top-52 -left-24 md:left-40 animate-leftAnimation"
+              className="absolute md:top-[300px] top-52 -left-24 md:left-36 animate-leftAnimation"
             />
             <img
               src="FartTrumpMainRight.png"
               alt="FartTrumpMainRight  "
-              className="absolute md:top-[280px] top-52 -right-[86px]  md:right-[154px] animate-rightAnimation"
+              className="absolute md:top-[300px] top-52 -right-[86px]  md:right-[130px] animate-rightAnimation"
             />
             <Link
               className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-10 md:mb-0 cursor-pointer z-50"
