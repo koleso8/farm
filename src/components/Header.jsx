@@ -12,19 +12,17 @@ const Header = () => {
     AOS.refresh();
   }, []);
   return (
-    <header className="mb-[280px] md:mb-[360px]">
-      <section className="pt-4 md:pt-0">
+    <header className="mb-[0px] md:mb-[0px]">
+      <section className="">
         <Container className={'justify-start'}>
           <div className="flex justify-start">
             <Link
               to={GAME}
               target="_blank"
-              className="text-2xl static z-40 "
+              className="text-2xl static z-40 pt-5 "
               data-aos="zoom-in"
               data-aos-duration="3000"
-            >
-              start
-            </Link>
+            ></Link>
           </div>
         </Container>
       </section>

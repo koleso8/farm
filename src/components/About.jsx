@@ -10,7 +10,8 @@ const About = () => {
     AOS.refresh();
   }, []);
   return (
-    <section className="">
+    <section>
+      <div className=" bg-bg-pattern2 brightness-[20%]  w-screen h-screen bg-no-repeat bg-cover absolute"></div>
       <Container>
         <div className="flex flex-col flex-wrap gap-x-3  items-center md:max-h-[1965px] mb-6 md:mb-44 ">
           <p
