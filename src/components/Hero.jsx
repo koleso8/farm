@@ -18,21 +18,21 @@ const Hero = () => {
         <div className="flex flex-col items-center  w-full relative ">
           <div>
             <div
-              className="font-bold flex justify-center items-center relative w-72 md:w-[500px] h-[111px] mb-[276px] md:mb-[500px]  text-white"
+              className="font-bold flex justify-center items-center relative w-72 md:w-[900px] h-[111px] mb-[276px] md:mb-[500px]  text-white"
               data-aos="fade-right"
               data-aos-duration="3000"
               data-aos-anchor-placement="bottom-bottom"
             >
-              <h1 className="title text-6xl  md:text-8xl absolute tracking-wide">
-                FARTRUMP
+              <h1 className="title text-6xl  md:text-8xl absolute tracking-[-15px] md:tracking-tight">
+                F A R T R U M P
               </h1>
-              <h2 className="title text-6xl  md:text-8xl  absolute top-[28px] left-[2px]  md:top-[9px] md:left-[24px] opacity-50 tracking-wide">
-                FARTRUMP
+              <h2 className="title text-6xl  md:text-8xl  absolute top-[28px] left-[16px]  md:top-[9px] md:left-[84px] opacity-50 tracking-[-15px] md:tracking-tight">
+                F A R T R U M P
               </h2>
-              <h2 className="title text-6xl  md:text-8xl  absolute top-[30px] left-[4px] md:top-[11px] md:left-[26px] opacity-25 tracking-wide">
-                FARTRUMP
+              <h2 className="title text-6xl  md:text-8xl  absolute top-[30px] left-[18px] md:top-[11px] md:left-[86px] opacity-25 tracking-[-15px] md:tracking-tight">
+                F A R T R U M P
               </h2>
-              <h3 className="text-2xl  md:text-6xl text-red-600  absolute top-20 left-[80px] md:top-24 md:left-[96px]">
+              <h3 className="text-2xl  md:text-6xl text-red-600  absolute top-20 left-[80px] md:top-24 md:left-[300px]">
                 earn game
               </h3>
             </div>
@@ -52,7 +52,7 @@ const Hero = () => {
               className="absolute md:top-[300px] top-52 -right-[86px]  md:right-[130px] animate-rightAnimation"
             />
             <Link
-              className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-10 md:mb-0 cursor-pointer z-50"
+              className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-1 md:mb-0 cursor-pointer z-5 md:m-auto"
               data-aos="fade-left"
               data-aos-duration="3000"
               data-aos-anchor-placement="bottom-bottom"
