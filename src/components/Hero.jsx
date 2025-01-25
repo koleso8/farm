@@ -51,21 +51,23 @@ const Hero = () => {
               alt="FartTrumpMainRight  "
               className="absolute md:top-[300px] top-52 -right-[86px]  md:right-[130px] animate-rightAnimation"
             />
-            <Link
-              className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-1 md:mb-0 cursor-pointer z-5 md:m-auto"
-              data-aos="fade-left"
-              data-aos-duration="3000"
-              data-aos-anchor-placement="bottom-bottom"
-              to={GAME}
-              target="_blank"
-            >
-              <p className="subTitle2 text-5xl  md:text-[64px] text-black absolute">
-                press start
-              </p>
-              <p className="title2 text-5xl md:text-[64px] text-black absolute">
-                press start
-              </p>
-            </Link>
+            <div className="relative z-50">
+              <Link
+                className="font-bold flex justify-center text-center items-center relative w-72 md:w-[500px] h-[111px] mb-1 md:mb-0 cursor-pointer md:m-auto "
+                data-aos="fade-left"
+                data-aos-duration="3000"
+                data-aos-anchor-placement="bottom-bottom"
+                to={GAME}
+                target="_blank"
+              >
+                <p className="subTitle2 text-5xl  md:text-[64px] text-black absolute">
+                  press start
+                </p>
+                <p className="title2 text-5xl md:text-[64px] text-black absolute">
+                  press start
+                </p>
+              </Link>
+            </div>
           </div>
           <Navigation
             className={'md:ml-auto md:absolute md:left-0 bottom-40'}
