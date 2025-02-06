@@ -36,22 +36,22 @@ const Gallery = () => {
         }}
       >
         <SwiperSlide>
-          <img src="g1.png" width={240} height={235} alt="bb" />
+          <img src="g1.webp" width={240} height={235} alt="bb" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="g2.png" width={240} height={235} alt="as" />
+          <img src="g2.webp" width={240} height={235} alt="as" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="g3.png" width={240} height={235} alt="ds" />
+          <img src="g3.webp" width={240} height={235} alt="ds" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="g4.png" width={240} height={235} alt="asd" />
+          <img src="g4.webp" width={240} height={235} alt="asd" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="1.png" width={240} height={235} alt="aaews" />
+          <img src="1.webp" width={240} height={235} alt="aaews" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="2.png" width={240} height={235} alt="ds" />
+          <img src="2.webp" width={240} height={235} alt="ds" />
         </SwiperSlide>
       </Swiper>
       <div className=" flex gap-20 pl-[0] "></div>

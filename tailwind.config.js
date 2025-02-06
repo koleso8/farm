@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-pattern': " url('/ph1.jpg')",
-        'bg-pattern2': " url('/ph2.jpg')",
+        'bg-pattern': " url('/ph1.webp')",
       },
       keyframes: {
         rightAnimation: {

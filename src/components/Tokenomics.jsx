@@ -17,12 +17,12 @@ const Tokenomics = () => {
         data-aos-duration="2000"
       >
         <img
-          src="TrumpLeft.png"
+          src="TrumpLeft.webp"
           alt="trump"
           className="w-80 scale-[2] relative z-10"
         />
         <img
-          src="FartLeft.png"
+          src="FartLeft.webp"
           className="absolute top-24 -left-[90px] animate-leftAnimation"
           alt=""
         />
@@ -33,12 +33,12 @@ const Tokenomics = () => {
         data-aos-duration="2000"
       >
         <img
-          src="TrumpRight.png"
+          src="TrumpRight.webp"
           alt="trump"
           className="w-80 scale-[2] relative z-10"
         />
         <img
-          src="FartRight.png"
+          src="FartRight.webp"
           className="absolute top-24 -right-[90px] animate-rightAnimation"
           alt=""
         />

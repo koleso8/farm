@@ -18,12 +18,12 @@ const Footer = () => {
           data-aos-duration="2000"
         >
           <img
-            src="cloud-left.png"
+            src="cloud-left.webp"
             alt="cloud-left"
             className="absolute w-10 top-4 -right-9 rotate-45 animate-pulse"
           />
           <img
-            src="cloud-right.png"
+            src="cloud-right.webp"
             alt="cloud-right"
             className="absolute w-10 top-5 -left-8  -rotate-45 animate-pulse"
           />

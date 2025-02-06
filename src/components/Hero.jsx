@@ -37,17 +37,17 @@ const Hero = () => {
               </h3>
             </div>
             <img
-              src="TrumpMain.png"
+              src="TrumpMain.webp"
               alt="trumH"
               className="absolute w-[540px] top-[120px] md:top-[108px] left-0 md:left-[246px] z-10 md:w-[600px]"
             />
             <img
-              src="FartTrumpMainLeft.png"
+              src="FartTrumpMainLeft.webp"
               alt="FartTrumpMainLeft  "
               className="absolute md:top-[300px] top-52 -left-24 md:left-36 animate-leftAnimation"
             />
             <img
-              src="FartTrumpMainRight.png"
+              src="FartTrumpMainRight.webp"
               alt="FartTrumpMainRight  "
               className="absolute md:top-[300px] top-52 -right-[86px]  md:right-[130px] animate-rightAnimation"
             />

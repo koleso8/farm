@@ -26,7 +26,7 @@ const Faqs = () => {
           </h2>
         </div>
         <img
-          src="GIF4.png"
+          src="GIF4.webp"
           alt="trmp"
           className="hidden w-[460px] md:block absolute top-8 right-[20%]"
           data-aos="zoom-in"
@@ -35,7 +35,7 @@ const Faqs = () => {
         />
         <ul className="faqList flex flex-col md:flex-wrap  md:max-h-[1100px] gap-10 md:gap-x-0 md:mb-12 text-center relative">
           <img
-            src="cloud-left.png"
+            src="cloud-left.webp"
             alt="cloud-left"
             className="hidden md:block absolute w-72 -top-52 -left-[12vw] animate-rightAnimation "
             data-aos="fade-right"
@@ -43,7 +43,7 @@ const Faqs = () => {
             data-aos-anchor-placement="bottom-bottom"
           />
           <img
-            src="cloud-left.png"
+            src="cloud-left.webp"
             alt="cloud-left"
             className="hidden md:block absolute w-72 -bottom-60  -left-[12vw] animate-rightAnimation  "
             data-aos="fade-right"
@@ -51,7 +51,7 @@ const Faqs = () => {
             data-aos-anchor-placement="bottom-bottom"
           />
           <img
-            src="cloud-right.png"
+            src="cloud-right.webp"
             alt="cloud-right"
             className="hidden md:block absolute w-72 top-0 -right-[12vw] animate-leftAnimation "
             data-aos="fade-right"
@@ -59,7 +59,7 @@ const Faqs = () => {
             data-aos-anchor-placement="bottom-bottom"
           />
           <img
-            src="cloud-right.png"
+            src="cloud-right.webp"
             alt="cloud-right"
             data-aos="fade-right"
             data-aos-duration="3000"

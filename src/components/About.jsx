@@ -1,14 +1,17 @@
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Container from './Container';
+import Loader from './Loader';
 
 const About = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+  const Video_1 = lazy(() => import('./Video_1'));
+  const Video_2 = lazy(() => import('./Video_2'));
   return (
     <section>
       <Container>
@@ -41,12 +44,12 @@ const About = () => {
             data-aos-duration="2000"
           >
             <img
-              src="TrumpLeft.png"
+              src="TrumpLeft.webp"
               alt="trump"
               className="w-80 scale-[1.8] relative z-10"
             />
             <img
-              src="FartLeft.png"
+              src="FartLeft.webp"
               className="absolute top-24 -left-[90px] animate-leftAnimation"
               alt=""
             />
@@ -67,21 +70,13 @@ const About = () => {
           </h2>
           <div className="relative">
             <img
-              src="mocup.png"
+              src="mocup.webp"
               alt="screenshot"
               className="w-[480px] md:h-[782px] pt-0 mb-6 md:mb-20 relative "
             />
-            <video
-              width="88%"
-              height="100%"
-              controls
-              className="absolute top-[78px] left-[20px]   md:top-[90px]  md:left-[26px] rounded-b-[40px]"
-              autoPlay
-              loop
-              muted
-            >
-              <source src="video1.MP4" type="video/mp4" />
-            </video>
+            <Suspense fallback={<Loader />}>
+              <Video_1 />
+            </Suspense>
           </div>
           <div
             className=" mb-6 relative"
@@ -90,33 +85,25 @@ const About = () => {
             data-aos-anchor-placement="top-bottom"
           >
             <img
-              src="TrumpRight.png"
+              src="TrumpRight.webp"
               alt="trump"
               className="w-80 scale-[1.8] relative z-10"
             />
             <img
-              src="FartRight.png"
+              src="FartRight.webp"
               className="absolute top-24 -right-[80px] animate-rightAnimation"
               alt=""
             />
           </div>
           <div className="relative ">
             <img
-              src="mocup.png"
+              src="mocup.webp"
               alt="screenshot"
               className="w-[480px]  md:h-[782px] pt-0 mb-6 md:mb-20 relative "
             />
-            <video
-              width="88%"
-              height="100%"
-              controls
-              className="absolute  top-[78px] left-[20px]   md:top-[90px]  md:left-[26px] rounded-b-[40px]"
-              autoPlay
-              loop
-              muted
-            >
-              <source src="video2.MP4" type="video/mp4" />
-            </video>
+            <Suspense fallback={<Loader />}>
+              <Video_2 />
+            </Suspense>
           </div>
           <p
             className="w-72 md:w-[388px] text-center text-4xl"
@@ -128,7 +115,7 @@ const About = () => {
             <span className="text-[#E44241] ">GET ADDITIONAL PRIZES.</span>
           </p>
           <img
-            src="GIF3.png"
+            src="GIF3.webp"
             alt="trump"
             className="w-80 "
             data-aos="zoom-in"
